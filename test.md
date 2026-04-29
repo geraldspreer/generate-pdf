@@ -116,10 +116,6 @@ def greet(name: str) -> str:
 
 ---
 
-## Images
-
-![Sample image placeholder](https://via.placeholder.com/300x80.png?text=Sample+Image)
-
 ## Definition list
 
 Pandoc
