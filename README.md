@@ -58,11 +58,29 @@ additional setup is required as long as the two files stay together. Edit
 ## Usage
 
 ```bash
-./generate.sh path/to/file.md
+./generate.sh <markdown-file> [ref-doc]
 ```
+
+- `<markdown-file>`: Path to the Markdown file to convert (required)
+- `[ref-doc]`: Optional path to a custom reference document. If omitted, defaults to
+  `ref-doc.odt` in the same directory as the script.
 
 The generated PDF is written to `$HOME/Downloads/doc.pdf` and opened
 automatically.
+
+### Examples
+
+Convert a Markdown file using the default reference document:
+
+```bash
+./generate.sh path/to/file.md
+```
+
+Convert a Markdown file using a custom reference document:
+
+```bash
+./generate.sh path/to/file.md /path/to/custom-ref-doc.odt
+```
 
 ### Try it with the included test file
 
