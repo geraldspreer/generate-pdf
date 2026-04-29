@@ -1,4 +1,4 @@
-# generate-pdf
+# Generate PDF
 
 A small Bash script that converts a Markdown file into a styled PDF using
 [Pandoc](https://pandoc.org/) and [LibreOffice](https://www.libreoffice.org/).
